@@ -1,0 +1,491 @@
+/* IMPORT */
+/* Reglas GRID en INDEX */
+.CP__DisplayGrid {
+  width: auto;
+  margin: 0;
+  justify-content: center;
+  align-items: start;
+  display: grid;
+  grid-template-areas: "GridA GridB" "GridA GridC";
+  grid-template-columns: 20% 60%;
+  grid-column-gap: 7rem; }
+
+.GridA {
+  grid-area: GridA;
+  width: 100%; }
+
+.GridB {
+  grid-area: GridB;
+  width: 100%; }
+
+.GridC {
+  grid-area: GridC;
+  width: 100%; }
+  .GridC img {
+    width: 100%; }
+
+/* Reglas GRID en SERVICIOS */
+.DisplayGrid {
+  width: auto;
+  margin: 0;
+  justify-content: center;
+  align-items: start;
+  display: grid;
+  grid-template-areas: "GridUno GridDos GridTres" "GridCuatro GridCuatro GridTres";
+  grid-template-columns: 25% 25% 25%;
+  grid-column-gap: 2rem; }
+
+.GridUno {
+  grid-area: GridUno;
+  width: 100%; }
+
+.GridDos {
+  grid-area: GridDos;
+  width: 100%; }
+
+.GridTres {
+  grid-area: GridTres;
+  width: 100%; }
+
+.GridCuatro {
+  grid-area: GridCuatro;
+  width: 100%; }
+
+.ImgBanner {
+  width: 100%; }
+
+.pgrid {
+  text-align: center;
+  margin-bottom: 3rem; }
+
+/* ESTILOS PARA EL INDEX */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+/* ESTILOS PARA HEADER INDEX */
+/* ESTILOS TEMPLATE */
+#header {
+  height: auto;
+  background-image: url(../multimedia/imagenes/fondo1.jpg);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0; }
+
+#header:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#logo {
+  width: 100%;
+  text-align: center; }
+
+#PrincipalLogo {
+  width: 25%; }
+
+.LogoPrincipal {
+  width: 25%;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+/* ESTILOS PARA MENU CON DISPLAY Y SUBMENU*/
+.MenuPrincipal {
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.MenuPrincipal li {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  margin: 0 2rem; }
+
+.MenuPrincipal a:hover {
+  color: #f740a4; }
+
+.MenuPrincipal ul ul {
+  position: absolute;
+  display: none; }
+
+.MenuPrincipal ul ul li {
+  display: block; }
+
+.MenuPrincipal ul li:hover ul {
+  display: block;
+  background-color: #4e4e4e52;
+  width: auto; }
+
+.Menu__Redes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem; }
+
+.RedesIconos {
+  width: 30px; }
+
+/* OTRAS RULES INDEX */
+.BannerIndex {
+  width: 100%; }
+
+.BordeSeparador {
+  border-bottom: 1px solid #dcdcdc;
+  margin: 2rem; }
+
+.TextoIndex {
+  font-size: 18px;
+  color: #9a5a34; }
+
+.HtresIndex {
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+/* Reglas GRID en INDEX */
+.CP__DisplayGrid {
+  width: auto;
+  margin: 0;
+  justify-content: center;
+  align-items: start;
+  display: grid;
+  grid-template-areas: "GridA GridB" "GridA GridC";
+  grid-template-columns: 20% 60%;
+  grid-column-gap: 7rem; }
+
+.GridA {
+  grid-area: GridA;
+  width: 100%; }
+
+.GridB {
+  grid-area: GridB;
+  width: 100%; }
+
+.GridC {
+  grid-area: GridC;
+  width: 100%; }
+
+.GridC img {
+  width: 100%; }
+
+/* SECCION BANNER DE TURNOS */
+.SeccionBannerTurnos__Div {
+  text-align: center; }
+
+.SeccionBannerTurnos__Div img {
+  width: 25%; }
+
+/* RULES SECCIONES */
+.LogoSecciones {
+  width: 15%; }
+
+.HeaderSecciones {
+  background-image: url(../multimedia/imagenes/fondo1.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 2rem; }
+
+.LogoSecciones {
+  width: 12%; }
+
+.HCuatro {
+  color: #005D73;
+  text-align: center;
+  margin-top: 2rem; }
+
+/* ESTILOS GENERICOS */
+section {
+  margin: 2rem;
+  padding: 2rem; }
+
+p {
+  color: #4e4e4e;
+  text-align: justify; }
+
+img {
+  margin: 10px; }
+
+h1 {
+  font-weight: 800;
+  text-align: center;
+  margin: 2rem; }
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  margin: 2rem; }
+
+h3 {
+  font-weight: normal;
+  font-style: oblique;
+  text-align: center; }
+
+/* ESTILO PARA MENU */
+ul {
+  list-style: none; }
+
+li a {
+  color: #040204;
+  text-decoration: none; }
+
+/* SECCION BANNER DE TURNOS */
+.SeccionBannerTurnos__Div {
+  text-align: center; }
+  .SeccionBannerTurnos__Div img {
+    width: 25%; }
+
+/* ESTILOS HTML PROCEDIMIENTOS QUIRURGICOS */
+.PQuirurgicos {
+  list-style-position: inside; }
+
+.PQuirurgicos a {
+  color: #ff8fa4; }
+
+.VideoYoutube {
+  margin: 10px; }
+
+/* Style para la Galerias FLEX*/
+.TituloSeccion {
+  margin-top: 4rem; }
+
+.FlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.FlexGaleria {
+  width: 63%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.FlexGaleria img {
+  max-width: 300px; }
+
+.FlexGaleriaDos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.FlexGaleriaDos img {
+  max-width: 300px; }
+
+/* CLASES PARA BOOTSTRAP */
+.MarginDivBootstrap {
+  margin-top: 2rem; }
+
+.ImgCarousel {
+  width: 100%;
+  height: auto; }
+
+/* ESTILOS PROCEDIMIENTOS NO QUIRURGICOS */
+.Columnas__Info, .Columnas__Redes {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+/* ------- SASS: Operadores, Condicionales, Bucles ------- */
+.labios-icon {
+  background-image: url("../multimedia/imagenes/noquirurgicos/icons/labios.jpg");
+  background-size: cover;
+  width: 10rem;
+  height: 10rem; }
+
+.rino-icon {
+  background-image: url("../multimedia/imagenes/noquirurgicos/icons/rino.jpg");
+  background-size: cover;
+  width: 10rem;
+  height: 10rem; }
+
+.botox-icon {
+  background-image: url("../multimedia/imagenes/noquirurgicos/icons/botox.jpg");
+  background-size: cover;
+  width: 10rem;
+  height: 10rem; }
+
+.lipo-icon {
+  background-image: url("../multimedia/imagenes/quirurgicos/icons/lipo.jpg");
+  background-size: cover;
+  width: 10rem;
+  height: 10rem; }
+
+.rinoplastia-icon {
+  background-image: url("../multimedia/imagenes/quirurgicos/icons/rinoplastia.jpg");
+  background-size: cover;
+  width: 10rem;
+  height: 10rem; }
+
+.masto-icon {
+  background-image: url("../multimedia/imagenes/quirurgicos/icons/masto.jpg");
+  background-size: cover;
+  width: 10rem;
+  height: 10rem; }
+
+.buttonplastic-1 {
+  background-color: #ffa9b9;
+  border-color: #ffffff;
+  color: #333333; }
+
+.buttonplastic-2 {
+  background-color: #ffc2cd;
+  border-color: #ffffff;
+  color: #333333; }
+
+.buttonplastic-3 {
+  background-color: #ffdce2;
+  border-color: #ffffff;
+  color: #333333; }
+
+.buttonplastic:hover {
+  background-color: #464646;
+  border-color: #464646;
+  color: #333333; }
+
+.btn-azul {
+  background-color: blue; }
+
+.btn-verde {
+  background-color: green; }
+
+.btn-violeta {
+  background-color: #6b1759; }
+
+.btn-naranja {
+  background-color: #ff8800; }
+
+.Columnas__Redes {
+  justify-content: center; }
+
+/* ESTILOS FOOTER NEW */
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373; }
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5; }
+
+.site-footer hr.small {
+  margin: 20px 0; }
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px; }
+
+.site-footer a {
+  color: #737373; }
+
+.site-footer a:hover {
+  color: #ff8fa4;
+  text-decoration: none; }
+
+.footer-links {
+  padding-left: 0;
+  list-style: none; }
+
+.footer-links li {
+  display: block; }
+
+.footer-links a {
+  color: #737373; }
+
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+  color: #ff8fa4;
+  text-decoration: none; }
+
+.footer-links.inline li {
+  display: inline-block; }
+
+.site-footer .social-icons {
+  text-align: right; }
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d; }
+
+.copyright-text {
+  margin: 0; }
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+    margin-left: 0 !important; } }
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0; }
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center; } }
+
+/* END ESTILOS FOOTER NEW */
+/* CONTACT FORM */
+#contact-form {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+/* RESPONSIVE INDEX */
+@media only screen and (max-width: 500px) {
+  .DisplayGridIndex {
+    display: block; }
+  .TurnosDiv img {
+    width: 100%; }
+  .CP__DisplayGrid {
+    display: block; } }
+
+@media only screen and (max-width: 1100px) {
+  .DisplayGridIndex {
+    display: block;
+    text-align: center; }
+  .TurnosDiv img {
+    width: 100%; }
+  .BannerIndex {
+    width: 100%; }
+  .LogoIndex {
+    width: 50%; }
+  .SeccionBannerTurnos__Div img {
+    width: 100%; } }
+
+/* RESPONSIVE SERVICIOS */
+@media only screen and (max-width: 1375px) {
+  .LogoSecciones {
+    width: 60%; }
+  .MenuPrincipal li {
+    display: block;
+    padding-top: 5px; }
+  .MenuPrincipal ul {
+    padding: 0; }
+  .Menu__Redes {
+    padding: 0; }
+  .LogoPrincipal {
+    width: 80%; }
+  .LogoIndex {
+    width: 70%; }
+  .DisplayGrid {
+    display: block; }
+  .GridTres {
+    margin-top: 2rem; }
+  .GridCuatro {
+    margin-top: 2rem; } }

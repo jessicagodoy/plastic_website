@@ -1,0 +1,80 @@
+
+/* Reglas GRID en INDEX */
+
+.CP__DisplayGrid{
+    width: auto;
+    margin:0;
+    justify-content: center;
+    align-items: start;
+    display: grid;
+    grid-template-areas: 
+    "GridA GridB"
+    "GridA GridC"
+    ;
+    grid-template-columns:20% 60%;
+    grid-column-gap: 7rem;
+}
+
+.GridA{
+    grid-area: GridA;
+    width:100%; 
+}
+
+.GridB{
+    grid-area: GridB; 
+    width:100%;
+}
+
+.GridC{
+    grid-area: GridC; 
+    width:100%;
+
+    img{
+        width: 100%;
+    }
+}
+
+/* Reglas GRID en SERVICIOS */
+
+.DisplayGrid{
+    width: auto;
+    margin:0;
+    justify-content: center;
+    align-items: start;
+    display: grid;
+    grid-template-areas: 
+    "GridUno GridDos GridTres"
+    "GridCuatro GridCuatro GridTres"
+    ;
+    grid-template-columns:25% 25% 25%;
+    grid-column-gap: 2rem;
+}
+
+.GridUno{
+    grid-area: GridUno;
+    width:100%; 
+}
+
+.GridDos{
+    grid-area: GridDos; 
+    width:100%;
+}
+
+.GridTres{
+    grid-area: GridTres; 
+    width:100%;
+}
+
+.GridCuatro{
+    grid-area: GridCuatro;
+    width:100%;
+}
+
+.ImgBanner {
+    width: 100%;
+}
+
+.pgrid{
+    text-align: center;
+    margin-bottom: 3rem;
+}
